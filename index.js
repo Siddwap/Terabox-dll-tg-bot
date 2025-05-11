@@ -16,7 +16,7 @@ app.listen(PORT, () => {
 });
 
 // ✅ Fixed Bot Token
-const BOT_TOKEN = '7545510216:AAGM55vSG0FdQsm5quaFfIhfolQ_QM2bV-g';
+const BOT_TOKEN = '5588296080:AAF-Sn5NiASYwiyotQ-d-HvyMG6rOpiG-zU';
 const bot = new Telegraf(BOT_TOKEN);
 
 // ✅ TeraBox URL Validation  
@@ -36,7 +36,7 @@ bot.start((ctx) => {
             caption: welcomeMessage,
             parse_mode: 'Markdown',
             ...Markup.inlineKeyboard([
-                [Markup.button.url('📌 US ❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖', 'https://t.me/Opleech_WD')]
+                [Markup.button.url('📌 US ❖ SD BOTS ❖', 'https://t.me/sdbots1')]
             ])
         }
     );
